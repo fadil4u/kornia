@@ -8,6 +8,13 @@ from datetime import datetime, timezone
 # by cloning the git repo. Thus, any on-the-fly operation will not effect
 # on the resulting documentation. We therefore need to import and run the
 # corresponding code here.
+html_context = {
+    'meta_tags': [
+        '<meta name="description" content="A brief description of your project.">',
+        '<meta name="keywords" content="keyword1, keyword2, keyword3">',
+        '<meta name="robots" content="index, follow">',
+    ],
+}
 spec = importlib.util.spec_from_file_location("generate_examples", "../generate_examples.py")
 generate_examples = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(generate_examples)
