@@ -25,6 +25,12 @@ Interactive Demo
       height="450"
    ></iframe>
 
+.. meta::
+    :description lang=en:
+        Adding additional CSS or JavaScript files to your Sphinx documentation
+        can let you customize the look and feel of your docs or add additional functionality.
+
+
 Benchmark
 ---------
 
@@ -71,8 +77,4 @@ Benchmark
    augmentation.container
    augmentation.module
 
-.. meta::
-    :description lang=en:
-        Adding additional CSS or JavaScript files to your Sphinx documentation
-        can let you customize the look and feel of your docs or add additional functionality.
 
